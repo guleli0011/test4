@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test4</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+        <link rel="stylesheet" href=".//index.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="navbar1">
+                <div class="imgbox">
+                    <img src="./images/business6.svg" alt="logo">
+                </div>
+                <div class="formbox">
+                    <form action="server.php" method="get">
+                        <img src="./images/search.png">
+                        <input type="text" class="search" placeholder="Type your search here" autocomplete="off" name="search">
+                        <input type="submit" class="button1"></button>
+                    </form>
+                </div>
+            </div>
+            <div class="navbar2">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <div class="menu2">
+                            <button class="menu2btn"><a href="#">Services</a></button>
+                            <div class="menu2con">
+                                <h1>See what we can do?</h1>
+                                <div class="menu2con1">
+                                    <div class="boxs">
+                                        <a href="#">
+                                            <div class="box1">
+                                                <div class="boxtext">
+                                                    <h1>Sem suspendisse nisl quisque dui feugiat</h1>
+                                                </div>
+                                                <div class="boximg">
+                                                    <svg class="lnr-arrow-right-circle"><use xlink:href="#lnr-arrow-right-circle"></use></svg>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="box1">
+                                                <div class="boxtext">
+                                                    <h1>Dignissim nunc class hac quisque felici</h1>
+                                                </div>
+                                                <div class="boximg">
+                                                    <svg class="lnr-arrow-right-circle"><use xlink:href="#lnr-arrow-right-circle"></use></svg>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="box1">
+                                                <div class="boxtext">
+                                                    <h1>Sed id mus elit suscipit quam dapibus</h1>
+                                                </div>
+                                                <div class="boximg">
+                                                    <svg class="lnr-arrow-right-circle"><use xlink:href="#lnr-arrow-right-circle"></use></svg>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="box1">
+                                                <div class="boxtext">
+                                                    <h1>Tristique eget consequat nascetur mauris</h1>
+                                                </div>
+                                                <div class="boximg">
+                                                    <svg class="lnr-arrow-right-circle"><use xlink:href="#lnr-arrow-right-circle"></use></svg>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <button class="menu2btn1"><a href="">See more</a></button>
+                            </div>
+                        </div>
+                        <li><a href="#">Stories</a></li>
+                        <li><a href="#">Our compayn</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="mobile">
+                    <span class="mobilemenuopenbtn" onclick="openNav()"><img src="./images/icons8-menu-rounded-50.png"></span>
+                    <div id="mobilemenu" class="mobilemenu">
+                        <a href="javascript:void(0)" class="mobilemenuclosebtn" onclick="closeNav()">&times;</a>
+                        <div class="mobilemenu2">
+                            <a href="#">Home</a>
+                            <a href="#">Services</a>
+                            <a href="#">Stories</a>
+                            <a href="#">Our compayn</a>
+                            <a href="#">Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile2">
+                    <span class="mobilesearchopenbtn" onclick="openNav1()"><img src="./images/search.png"></span>
+                    <div id="mobilesearch" class="mobilesearch">
+                        <div class="mobilesearch2">
+                            <img src="./images/search.png">
+                            <input type="text" class="mobilesearchinput" placeholder="Enter your search" autocomplete="off" name="search">
+                            <a href="javascript:void(0)" class="mobilesearchclosebtn" onclick="closeNav1()">&times;</a>
+                            <button class="submit2" type="submit"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="login">
+                <a href="#"><img src="./images/business6-loginicon.webp"></a>
+                </div>
+                <div class="tel">
+                    <a href="tel:+61383766284">+61 38376 6284</a>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+    <script>
+        function openNav() {
+          document.getElementById("mobilemenu").style.width = "350px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mobilemenu").style.width = "0";
+        }
+    </script>
+    <script>
+        function openNav1() {
+          document.getElementById("mobilesearch").style.display = "flex";
+        }
+        
+        function closeNav1() {
+          document.getElementById("mobilesearch").style.display = "none";
+        }
+    </script>
+</html>
