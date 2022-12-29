@@ -64,6 +64,9 @@ body {
 .faqboxs {
     width: 100%;
 }
+.faqbox{
+    border-left-style: solid;
+}
 .faqbtn1 {
     text-align: left;
     cursor: pointer;
