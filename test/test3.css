@@ -54,11 +54,12 @@ body {
     color: white;
     margin: 0px;
 }
-.icon0002 {
+
+.icon002 span,.icon0002 span{
+    font-size: 50px;
 }
-.lnr-arrow-right-circle {
-    height: 50px;
-    width: 50px;
+.icon0002 span {
+    color: white;
 }
 .lnr-arrow-right-circle:hover {
     color: blue;
